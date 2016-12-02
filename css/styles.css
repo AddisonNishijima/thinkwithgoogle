@@ -36,6 +36,7 @@ div .col.s12.m6.l2, div .col.s12.m8.l8 {
 
 .row {
   padding: 0em;
+  margin: 0em;
 }
 
 /*\=============================================================================
@@ -43,70 +44,73 @@ div .col.s12.m6.l2, div .col.s12.m8.l8 {
 ==============================================================================*/
 
 @media screen and (min-width:199px) {
-  #sub1 {
-    width: 50%;
-    min-height: 7.5em;
-    padding: 0em;
-    margin: 0em;
-  }
-
   #top {
-    float: left;
-    clear: both;
+    width: 100%;
     padding: 0em;
     margin: 0em;
   }
 
   #bottom {
-    float: left;
-    clear: both;
+    width: 100%;
     padding: 0em;
     margin: 0em;
   }
 
-  #sub2 {
-    width: 50%;
+  .card-title {
+    background-color: blue;
+    width: 100%;
     float: right;
-    min-height: 7.5em;
-    padding: 0em;
-    margin: 0em;
   }
-
   .row.col{
     padding: 0em;
     margin: 0em;
   }
 }
 
-@media screen and (min-width:599px) {
+@media screen and (min-width:400px) {
 
   #top {
     width: 50%;
+    min-height: 7.5em;
     float: left;
     clear: both;
     padding: 0em;
     margin: 0em;
   }
 
-  #sub1 {
+  #bottom {
     width: 50%;
-    margin-bottom: 10px;
-    float: left;
-    clear: left;
+    float: right;
+    clear: right;
+    padding: 0em;
+    margin: 0em;
+  }
+
+  .card-title {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:1000px) {
+
+  .l7 {
+    width: 50%;
+  }
+
+  #top {
+    width: 40%;
+    float: right;
+    clear: right;
+    padding: 0em;
+    margin: 0em;
   }
 
   #bottom {
     width: 40%;
     float: right;
+    clear: right;
     padding: 0em;
     margin: 0em;
-  }
-
-  #sub2 {
-    width: 49%;
-    margin-bottom: 10px;
-    float: right;
-    clear: right;
   }
 
   div .col.s12.m8.l8 {
