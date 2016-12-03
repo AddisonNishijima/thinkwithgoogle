@@ -52,11 +52,13 @@ div .col.s12.m6.l3, col.s12.m12.l7 {
   #top {
     height: 100%;
     width: 100%;
+    margin-top: -13px;
   }
 
   #bottom {
     height: 100%;
     width: 100%;
+    margin-top: -21px;
   }
 
   #top .card-title {
@@ -83,6 +85,7 @@ div .col.s12.m6.l3, col.s12.m12.l7 {
     clear: both;
     padding: 0em;
     margin: 0em;
+    margin-top: -13px;
   }
 
   #bottom {
@@ -91,6 +94,7 @@ div .col.s12.m6.l3, col.s12.m12.l7 {
     clear: right;
     padding: 0em;
     margin: 0em;
+    margin-top: -13px;
   }
 
   .col.s12.m12.l7 {
@@ -127,7 +131,7 @@ div .col.s12.m6.l3, col.s12.m12.l7 {
     float: right;
     clear: right;
     padding: 0em;
-    margin-top: -30px;
+    margin-top: -22px;
   }
 
   #top .card-title {
