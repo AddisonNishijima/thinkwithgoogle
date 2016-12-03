@@ -1,6 +1,6 @@
 # _Think With Google_
 
-#### _This is an attempted replica/restyling of the Think With Google's responsive images using the Materialize framework, 12/2/2016_
+#### _This is an attempted replica/restyling of Think With Google's responsive images using the Materialize framework, 12/2/2016_
 
 #### By _**Addison Nishijima**_
 
