@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is an attempted replica/restyling of the Think With Google's responsive images using the Materialize framework_
+_This is an attempted replica/restyling of Think With Google's responsive images using the Materialize framework_
 
 ## Setup/Installation Requirements
 
