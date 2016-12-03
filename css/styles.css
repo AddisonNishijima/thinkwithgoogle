@@ -45,6 +45,10 @@ div .col.s12.m6.l3, col.s12.m12.l7 {
 
 @media screen and (min-width:200px) {
 
+  .col.s12.m12.l7 {
+    padding: 0em;
+  }
+
   #top {
     height: 100%;
     width: 100%;
